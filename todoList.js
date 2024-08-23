@@ -98,3 +98,4 @@ let email2 = localStorage.getItem('Email')
 personal2.innerHTML = email2
 let Number2 = localStorage.getItem('Number')
 personal3.innerHTML = Number2;
+console.log("asdf")
