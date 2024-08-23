@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="security.css" />
+  <body
+    style="
+      background-color: rgba(9, 9, 9, 0.785);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 12px;
+    "
+  >
+    <div class="input-group">
+      <input
+        required=""
+        type="text"
+        autocomplete="off"
+        class="input"
+        id="Name"
+      />
+      <label class="user-label">Name</label>
+    </div>
+    <div class="input-group">
+      <input
+        required=""
+        type="text"
+        autocomplete="off"
+        class="input"
+        id="email"
+      />
+      <label class="user-label">Email</label>
+    </div>
+    <div class="input-group">
+      <input
+        required=""
+        type="text"
+        autocomplete="off"
+        class="input"
+        id="phone"
+      />
+      <label class="user-label">PhoneNumber</label>
+    </div>
+    <div class="input-group">
+      <input
+        required=""
+        type="password"
+        autocomplete="off"
+        class="input"
+        id="pass"
+      />
+      <label class="user-label">Password</label>
+    </div>
+    <input type="checkbox" onclick="myFunction()" />Show Password
+    <button class="log" id="submitBtn">log in!</button>
+  </body>
+  <script src="./security.js"></script>
+</html>

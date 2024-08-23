@@ -1,0 +1,38 @@
+.back {
+  background-color: white;
+  height: 70vh;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  margin-top: 7%;
+  border-color: 1px black;
+}
+.Task {
+  height: 5vh;
+  width: 80%;
+  border-color: white;
+}
+.add {
+  height: 6vh;
+  width: 20%;
+}
+.cube {
+  background-color: black;
+  height: 24px;
+  width: 99.8%;
+  border: 1px solid white;
+  display: flex;
+  margin-top: 1px;
+}
+.text {
+  height: 100%;
+  margin-top: 2px;
+  color: white;
+}
+.Done {
+  height: 40%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
